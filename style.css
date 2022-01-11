@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 0.4em;
 }
 
 #image {
@@ -32,13 +33,23 @@ figcaption {
 .text {
     font-weight: 300;
     font-style: italic;
+    text-align: center;
 }
 
 #tribute-info {
-    background-color: rgb(89, 134, 89);
+    background-color: rgb(136, 173, 136);
     border-radius: 5px;
+    padding-top: 0.1em;
+}
+
+#sub-title {
+    text-align: center;
 }
 
 ::marker {
-    color: rgb(88, 88, 240);
+    color: rgb(32, 32, 104);
+}
+
+.text2 {
+    text-align: center;
 }
