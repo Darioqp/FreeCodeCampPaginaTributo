@@ -1,5 +1,42 @@
 body {
     background-color: rgb(216, 250, 216);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 20em;
+    border-radius: 10px;
+    background-color: rgb(136, 173, 136);
+}
+
+figcaption {
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(136, 173, 136);
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 0.2em;
+}
+
+.text {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#tribute-info {
+    background-color: rgb(89, 134, 89);
+    border-radius: 5px;
 }
 
 ::marker {
