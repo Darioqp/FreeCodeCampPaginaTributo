@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(216, 250, 216);
+}
+
+::marker {
+    color: rgb(88, 88, 240);
+}
