@@ -6,6 +6,10 @@ body {
     margin-right: 1em;
 }
 
+#title {
+    font-size: 3em;
+}
+
 .img-box {
     display: flex;
     justify-content: center;
@@ -21,6 +25,7 @@ body {
 
 figcaption {
     text-align: center;
+    font-size: 1.3em;
 }
 
 .header {
@@ -33,6 +38,7 @@ figcaption {
 .text {
     font-weight: 300;
     font-style: italic;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -40,10 +46,12 @@ figcaption {
     background-color: rgb(136, 173, 136);
     border-radius: 5px;
     padding-top: 0.1em;
+    padding-bottom: 0.1em;
 }
 
 #sub-title {
     text-align: center;
+    font-size: 2em;
 }
 
 ::marker {
@@ -52,4 +60,17 @@ figcaption {
 
 .text2 {
     text-align: center;
+    font-size: 2em;
+}
+
+.text3 {
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+li {
+    line-height: 2;
+    font-size: 1.3em;
 }
