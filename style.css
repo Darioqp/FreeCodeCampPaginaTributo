@@ -19,11 +19,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0.4em;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+
 }
 
 #image {
-    width: 30em;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
     border-radius: 10px;
     background-color: rgb(136, 173, 136);
 }
@@ -39,6 +49,7 @@ figcaption {
     text-align: center;
     padding-bottom: 0.2em;
     padding-top: 0.1em;
+    margin-bottom: 1em;
 }
 
 .text {
@@ -52,7 +63,8 @@ figcaption {
     background-color: rgb(136, 173, 136);
     border-radius: 5px;
     padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
 }
 
 #sub-title {
