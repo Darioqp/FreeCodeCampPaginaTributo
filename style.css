@@ -1,13 +1,18 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: rgb(216, 250, 216);
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 1em;
 }
 
 #title {
-    font-size: 3em;
+    font-size: 5rem;
 }
 
 .img-box {
@@ -18,14 +23,14 @@ body {
 }
 
 #image {
-    width: 20em;
+    width: 30em;
     border-radius: 10px;
     background-color: rgb(136, 173, 136);
 }
 
 figcaption {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 2.5rem;
 }
 
 .header {
@@ -33,12 +38,13 @@ figcaption {
     border-radius: 5px;
     text-align: center;
     padding-bottom: 0.2em;
+    padding-top: 0.1em;
 }
 
 .text {
     font-weight: 300;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -51,7 +57,7 @@ figcaption {
 
 #sub-title {
     text-align: center;
-    font-size: 2em;
+    font-size: 3rem;
 }
 
 ::marker {
@@ -60,17 +66,17 @@ figcaption {
 
 .text2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3rem;
 }
 
 .text3 {
     font-weight: 300;
     font-style: italic;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 3rem;
 }
 
 li {
     line-height: 2;
-    font-size: 1.3em;
+    font-size: 2rem;
 }
